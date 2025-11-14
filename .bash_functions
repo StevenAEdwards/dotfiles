@@ -10,8 +10,8 @@ dl() {
 
 _d_complete() {
   local cur
-  cur="${COMP_WORDS[COMP_CWORD]}"
-  COMPREPLY=($(compgen -W "$(docker ps --format '{{.Names}}')" -- "$cur"))
+    cur="${COMP_WORDS[COMP_CWORD]}"
+    COMPREPLY=($(compgen -W "$(docker ps --format '{{.Names}}')" -- "$cur"))
 }
 
 complete -F _d_complete de
