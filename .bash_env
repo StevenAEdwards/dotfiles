@@ -1,0 +1,5 @@
+# ~/.bash_env
+
+[ -d "$HOME/.local/bin" ] && PATH="$HOME/.local/bin:$PATH"
+[ -d "/opt/nvim-linux-x86_64/bin" ] && PATH="/opt/nvim-linux-x86_64/bin:$PATH"
+export PATH
