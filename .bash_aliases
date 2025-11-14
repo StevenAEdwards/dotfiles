@@ -1,5 +1,5 @@
 alias x='xclip -selection clipboard'
-alias ls='eza --group-directories-first --icons'
+alias ls='eza -a --group-directories-first --icons'
 alias lt='eza -lh --icons --sort=size --total-size --group-directories-first --reverse'
 alias ll='eza -lh --icons --sort=size --group-directories-first'
 alias hg='history | grep '
