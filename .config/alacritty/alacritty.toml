@@ -1,0 +1,13 @@
+
+import = ["~/.config/alacritty/catppuccin_mocha.toml"]
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+dimensions = { columns = 80, lines = 24 }
+decorations = "buttonless"
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+bold = { family = "JetBrainsMono Nerd Font", style = "Bold" }
